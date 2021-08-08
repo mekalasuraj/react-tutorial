@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+body {
+  left: 0;
+  top: 0;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif !important;
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+h5,
+.themeTwo h1,
+.themeTwo h2,
+.themeTwo h3,
+.themeTwo h4,
+.themeTwo h5,
+.themeTwo h6,
+.themeTwo p,
+.themeTwo .btn {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.themeTwo .section {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.themeTwo .main-title {
+  font-size: 50px !important;
+  font-weight: 900 !important;
+}
+
+.themeTwo .custom-navbar .nav-item .nav-link {
+  font-size: 20px;
+}
+
+.themeTwo .section-title {
+  font-size: 40px !important;
+  font-weight: 900 !important;
+}
+
+.themeTwo .event-card {
+  border-radius: 40px;
+  box-shadow: none;
+}
+
+.themeTwo .text-violet {
+  color: #2cf40b;
+}
+
+.themeTwo .btn-collapse {
+  border-radius: 40px;
+  background: #2cf40b !important;
+  color: #000;
+}
+
+.themeTwo .btn-round {
+  border-radius: 40px;
+}
+
+.themeTwo .btn-outline-primary,
+.themeTwo .btn-outline-primary:hover,
+.themeTwo .btn-outline-primary:active,
+.themeTwo .btn-outline-primary:focus {
+  border-color: #2cf40b !important;
+  color: #2cf40b !important;
+}
+
+.themeTwo .btn-collapse:active,
+.themeTwo .btn-collapse:hover,
+.themeTwo .btn-collapse:focus {
+  color: #fff;
+}
+
+.themeTwo .theme-color {
+  color: #2cf40b !important;
+}
+
+.theme-color-alternate {
+  color: #3a3b3c !important;
+}
+
+.themeTwo.theme-background,
+.themeTwo .theme-background {
+  background-color: #18191a !important;
+  color: #c2c2c2 !important;
+}
+
+.themeTwo .theme-secondary {
+  background-color: #2cf40b !important;
+}
+
+.themeTwo .theme-alternate-color {
+  background-color: #242526 !important;
+  color: #c2c2c2 !important;
+}
+
+.themeTwo .theme-border {
+  border: 3px solid #2cf40b !important;
+  border-radius: 20px !important;
+}
+.themeTwo .theme-border-sm {
+  border: 2px solid #2cf40b !important;
+}
+
+.border-radius-40 {
+  border-radius: 40px;
+}
+
+.bg-dark {
+  background: #000 !important;
+}
+
+.themeTwo .insta-patch {
+  width: 7px;
+  height: 160vh;
+  margin-top: 20px;
+  position: absolute;
+  left: 0;
+}
+
+.themeTwo .main-background {
+  height: 95vh;
+  background-image: url('./img/home4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg_tranparent {
+  background: transparent !important;
+}
+
+.themeTwo .footer,
+.themeTwo.footer {
+  background-color: #000 !important;
+}
+
+.themeTwo .custom-nav-link {
+  font-size: 13px !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+.themeTwo .btn:disabled {
+  background-color: gray !important;
+  cursor: disabled;
+}
+
+.main-background {
+  height: 100vh;
+  width: 100%;
+}
+.fullscreen-bg {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 99vw;
+  height: calc(100vw / 1.7778);
+  border: 0;
+}
+
+.artist-home-card {
+  border: 1px solid #e3e3e3;
+  border-radius: 15px;
+}
+
+.home-event-background,
+.home-event-background-small {
+  border-radius: 15px 15px 0 0 !important;
+}
+
+.home-event-body {
+  border-radius: 0 0 15px 15px !important;
+}
+.subscribe-form-control {
+  height: 60px;
+}
+
+.btn {
+  color: #000 !important;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 767px) {
+  .static-section {
+    min-height: 60vh;
+  }
+}
+
+.themeTwo .form-control:active,
+.themeTwo .form-control:focus,
+.themeTwo .form-control:hover {
+  border-bottom: 1px solid #2cf40b !important;
+  box-shadow: 0 1px 0 0 #2cf40b !important;
+  /* outline: none; */
+}
+
+.themeTwo .form-control:active + label,
+.themeTwo .form-control:focus + label,
+.themeTwo .form-control:hover + label {
+  color: #2cf40b !important;
+}

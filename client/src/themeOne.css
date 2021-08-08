@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+h5,
+.themeOne h1,
+.themeOne h2,
+.themeOne h3,
+.themeOne h4,
+.themeOne h5,
+.themeOne h6,
+.themeOne p,
+.themeOne .btn {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.themeOne .text-violet,
+.theme-color {
+  color: #5841f3 !important;
+}
+
+.themeOne .btn-collapse {
+  background: #5841f3 !important;
+}
+
+.themeOne .btn-round {
+  border-radius: 40px;
+}
+
+.themeOne .btn-outline-primary,
+.themeOne .btn-outline-primary:hover,
+.themeOne .btn-outline-primary:active,
+.themeOne .btn-outline-primary:focus {
+  border-color: #5841f3 !important;
+  color: #5841f3 !important;
+}
+
+.themeOne .btn-outline-primary:hover,
+.themeOne .btn-outline-primary:active,
+.themeOne .btn-outline-primary:focus {
+  background-color: #5841f3 !important;
+  color: #fff !important;
+}
+
+.themeOne .theme-color {
+  color: #5841f3 !important;
+}
+
+.themeOne .theme-color-alternate {
+  color: #fff !important;
+}
+
+.themeOne.theme-background,
+.themeOne .theme-background {
+  background-color: #efefef !important;
+}
+
+.themeOne .theme-secondary {
+  background-color: #5841f3 !important;
+  color: #fff !important;
+}
+
+.themeOne .theme-alternate-color {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.themeOne .theme-border {
+  border: 4px solid #5841f3 !important;
+  border-radius: 20px;
+}
+
+.themeTwo .theme-border-sm {
+  border: 2px solid #5841f3 !important;
+}
+
+.themeOne .footer,
+.themeOne.footer {
+  background-color: #000 !important;
+}
+
+.themeOne .custom-nav-link {
+  font-size: 13px !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+.themeOne .btn:disabled {
+  background-color: gray !important;
+  cursor: disabled;
+}
+
+.main-background {
+  height: 100vh;
+  width: 100%;
+}
+.fullscreen-bg {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 99vw;
+  height: calc(100vw / 1.7778);
+  border: 0;
+}
+
+.artist-home-card {
+  border: 1px solid #e3e3e3;
+  border-radius: 15px;
+}
+
+.btn {
+  color: #000 !important;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 767px) {
+  .static-section {
+    min-height: 60vh;
+  }
+}
+
+.themeOne .form-control:active,
+.themeOne .form-control:focus,
+.themeOne .form-control:hover {
+  border-bottom: 1px solid #5841f3 !important;
+  box-shadow: 0 1px 0 0 #5841f3 !important;
+  /* outline: none; */
+}
+
+.themeOne .form-control:active + label,
+.themeOne .form-control:focus + label,
+.themeOne .form-control:hover + label {
+  color: #5841f3 !important;
+}

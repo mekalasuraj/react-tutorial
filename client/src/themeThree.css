@@ -1,0 +1,157 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nosifer:wght@300;400;500;600;700&display=swap'); */
+
+@font-face {
+  font-family: 'MadridGrunge';
+  font-style: normal;
+  font-weight: 100 !important;
+  src: local('MadridGrunge'),
+    url('fonts/madrid/MadridGrunge.otf') format('woff');
+  font-display: swap;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.themeThree h1,
+.themeThree h2,
+.themeThree h3,
+.themeThree h4,
+.themeThree h5,
+.themeThree h6,
+.themeThree .btn {
+  font-family: 'MadridGrunge' !important;
+  font-weight: 100 !important;
+}
+
+.themeThree .text-violet {
+  color: #ecbe4f;
+}
+
+.themeThree .btn-collapse {
+  border-radius: 40px;
+  background: #ecbe4f !important;
+  color: #000;
+}
+
+.themeThree .btn-round {
+  border-radius: 40px;
+}
+
+.themeThree .btn-outline-primary,
+.themeThree .btn-outline-primary:hover,
+.themeThree .btn-outline-primary:active,
+.themeThree .btn-outline-primary:focus {
+  border-color: #ecbe4f !important;
+  color: #ecbe4f !important;
+}
+
+.themeThree .btn-collapse:active,
+.themeThree .btn-collapse:hover,
+.themeThree .btn-collapse:focus {
+  color: #fff;
+}
+
+.themeThree .theme-color {
+  color: #ecbe4f !important;
+}
+
+.themeThree .theme-background,
+.themeThree.theme-background {
+  background-color: #3e3c3c !important;
+  color: #efefef !important;
+}
+
+.themeThree .theme-secondary {
+  background-color: #ecbe4f !important;
+}
+
+.themeThree .theme-alternate-color {
+  background-color: #282828 !important;
+  color: #c2c2c2 !important;
+}
+
+.themeThree .theme-border {
+  border: none !important;
+  border-radius: 20px;
+}
+
+.themeThree > .font-weight-bold,
+.themeThree > .section-title {
+  font-weight: 100 !important;
+}
+
+.themeThree .footer,
+.themeThree.footer {
+  background-color: #000 !important;
+}
+
+.themeThree .custom-nav-link {
+  font-size: 13px !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+.themeThree .btn:disabled {
+  background-color: gray !important;
+  cursor: disabled;
+}
+
+.main-background {
+  height: 100vh;
+  width: 100%;
+}
+.fullscreen-bg {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 99vw;
+  height: calc(100vw / 1.7778);
+  border: 0;
+}
+
+.artist-home-card {
+  border: 1px solid #e3e3e3;
+  border-radius: 15px;
+}
+
+.home-event-background,
+.home-event-background-small {
+  border-radius: 15px 15px 0 0 !important;
+}
+
+.home-event-body {
+  border-radius: 0 0 15px 15px !important;
+}
+.subscribe-form-control {
+  height: 60px;
+}
+
+.btn {
+  color: #000 !important;
+  font-weight: 700;
+}
+
+.themeThree .form-control:active,
+.themeThree .form-control:focus,
+.themeThree .form-control:hover {
+  border-bottom: 1px solid #ecbe4f !important;
+  box-shadow: 0 1px 0 0 #ecbe4f !important;
+  /* outline: none; */
+}
+
+.themeThree .form-control:active + label,
+.themeThree .form-control:focus + label,
+.themeThree .form-control:hover + label {
+  color: #ecbe4f !important;
+}
